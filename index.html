@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>JsCalculator</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div id="calculatorContainer">
+	<input readonly type="text" id="screen"/>
+	<div class="buttons-container">
+			<!-- Main buttons -->
+			<div class="row">
+			<button onclick="clearScreen()">AC</button>
+			<button onclick="backspace()">C</button>
+			</div>
+			<!-- row of buttons -->
+			<div class="row">
+			<button onclick="addToScreen(7)">7</button>
+			<button onclick="addToScreen(8)">8</button>
+			<button onclick="addToScreen(9)">9</button>
+			<button onclick="divide()">/</button>
+			</div>
+			<!-- row of buttons -->
+			<div class="row">
+			<button onclick="addToScreen(4)">4</button>
+			<button onclick="addToScreen(5)">5</button>
+			<button onclick="addToScreen(6)">6</button>
+			<button onclick="multiply()">x</button>
+			</div>
+			<!-- row of buttons -->
+			<div class="row">
+			<button onclick="addToScreen(1)">1</button>
+			<button onclick="addToScreen(2)">2</button>
+			<button onclick="addToScreen(3)">3</button>
+			<button onclick="subtract()">-</button>
+			</div>
+			<!-- row of buttons -->
+			<div class="row">
+			<button onclick="addToScreen(0)">0</button>
+			<button>.</button>
+			<button onclick="equals()">=</button>
+			<button onclick="add()">+</button>
+			</div>
+	</div>
+</div>
+
+<script src="calculator.js"></script>
+</body>
+</html>
