@@ -54,6 +54,8 @@ table {
 	border:1px solid black;
 	box-sizing: border-box;
 	margin:5px;
+	padding: 0 10px;
+	font-size:1.3rem;
 }
 .buttons-container {
 	max-width: 400px;
@@ -74,4 +76,5 @@ table {
 	height: 80px;
 	box-sizing: border-box;
 	margin:5px;
+	font-size: 2rem;
 }
